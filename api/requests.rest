@@ -1,0 +1,17 @@
+GET http://localhost:3001/taskManagers
+
+###
+
+
+POST http://localhost:3001/taskManager/new
+Content-Type: application/json
+
+{
+    "text": "Complete Homework"
+}
+
+###
+DELETE http://localhost:3001/taskManager/delete/6442b99dc7d6a4245dfc9066
+
+###
+PUT http://localhost:3001/taskManager/complete/6442b6a1c7d6a4245dfc9063
